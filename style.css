@@ -19,6 +19,7 @@ body,html {
   -moz-border-radius: 50px;
   border-radius: 50px;
   background:#FF7557;
+  position: relative;
 }
 
 #circle2 {
@@ -28,4 +29,19 @@ body,html {
   -moz-border-radius: 50px;
   border-radius: 50px;
   background:#68b1b1;
+  position: relative;
+  top: -33px;
+  rotate: (30deg);
+}
+
+#circle3 {
+  width: 600px;
+  height: 600px;
+  -webkit-border-radius: 600px;
+  -moz-border-radius: 600px;
+  border-radius: 600px;
+  background:#f0d643;
+  position: relative;
+  left: 300px;
+  top: 20px
 }
