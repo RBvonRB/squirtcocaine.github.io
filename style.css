@@ -20,19 +20,30 @@ body,html {
   border-radius: 50px;
   background:#FF7557;
   position: relative;
+  top: 130px;
+  left: 200px;
 }
 
 #circle2 {
+  animation: pulse  10s infinite;
+  animation-name: colorchange 2s infinite;
   width: 200px;
   height: 900px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-  background:#68b1b1;
+  background-color:#68b1b1;
   position: relative;
-  top: -33px;
+  top: -300px; 
+  left: 150px;
   rotate: (30deg);
 }
+
+@keyframes colorchange {
+  from {background-color: #68b1b1}
+  to {background-color: salmon;}
+}
+
 
 
 #circle3 {
@@ -65,21 +76,16 @@ body,html {
 	}
 }
 
-#object-position-1 {
-  object-position: 10px;
-}
-
-#object-position-2 {
-  object-position: 100% 10%;
-}
-
 
 #circle4 {
-  animation: pulse 2s infinite;
+  animation: pulse  5s infinite;
   background-color: rgba(500, 232, 10, 3);
   border-radius: 50%;
   height: 60px;
-  width: 60px
+  position: relative;
+  width: 60px;
+  top: -1500px;
+  left: 250px;
 }
 
 @keyframes pulse {
@@ -90,7 +96,7 @@ body,html {
 
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+		box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
 	}
 
 	100% {
