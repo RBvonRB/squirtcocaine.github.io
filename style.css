@@ -1,5 +1,13 @@
 h1 {
-  color: red;
+  color: rgb(255, 187, 0);
+}
+
+p {
+  color: rgb(255, 136, 0);
+}
+
+a {
+  color: rgb(182, 178, 168);
 }
 
 /*Einfügen Font in ganzes html*/
@@ -9,5 +17,5 @@ html {
 
 
 body,html {
-  background:#060a19;
+  background:#3d0303;
 }
